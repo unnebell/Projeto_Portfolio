@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: darkslategray;
+}
+
+ul.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+a:hover {
+    font-size: 1.1rem;
+    text-decoration: underline;
+}
+
+
+h1 {
+    font-size: 40px;
+    margin: 20px 0 40px 0;
+    text-align: center;
+}
+
+.projetos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+
+    & p {
+        text-align: center;
+    }
+}
+
+.cartao-dentro {
+    width: 300px;
+    height: 250px;
+    background-color: #1a3335;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.imagem-cartao {
+    width: 100%;
+    height: 100%;
+}
+
+.imagem-cartao:hover {
+    width: 102%;
+    height: 102%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 70px;
+    padding: 10px;
+    font-size: 0.9rem;
+}

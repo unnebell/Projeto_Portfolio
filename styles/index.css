@@ -34,6 +34,10 @@ h1 {
     text-align: center;
 }
 
+.container-sobre, section {
+    background-color: rgba(55, 92, 92, 0.116);
+}
+
 .container-sobre {
     display: flex;
     justify-content: space-between;

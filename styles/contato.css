@@ -46,8 +46,10 @@ main > li {
 }
 
 footer {
+    position: fixed;
+    top: 95%;
     text-align: center;
-    margin-top: 160px;
     padding: 10px;
     font-size: 0.9rem;
+    width: 100vw;
 }
